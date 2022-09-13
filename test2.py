@@ -8,8 +8,16 @@ var_dict = {
     'key2':'{"s":"device","s1":"laptop"}'
 }
 
-
-
+d = {
+    "name": "sudhanshu",
+    "email": "sudhanshu@ineuron",
+    "surname" : "kumar",
+}
+d = {
+    "name": "sudhanshu",
+    "email": "sudhanshu@ineuron",
+    "surname" : "kumar",
+}
 database = client['test2']
 collect = database['list1']
 collect.insert_one(var_dict)
